@@ -22,6 +22,9 @@ export default [
       children: [{
         path: '1',
         component: require('../pages/en/theoricalRL/En1DDPG.md').default,
+      },{
+        path: '2',
+        component: require('../pages/en/mathnotes/math-notes.md').default,
       }],
     }
     ],

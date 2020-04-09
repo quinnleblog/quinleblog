@@ -8,6 +8,7 @@
       <p class="menu-label">Theorical RL</p>
       <ul class="menu-list">
         <li><router-link to="/theorical/1" exact>DDPG</router-link></li>
+        <li><router-link to="/theorical/2" exact>mathnotes</router-link></li>
         <li><router-link to="/components/layout" exact>TRPO/PPO</router-link></li>
         <li><router-link to="/components/button" exact>SAC</router-link></li>
         <li><router-link to="/components/icon" exact>Inference</router-link></li>
