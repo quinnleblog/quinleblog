@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav class="navbar is-fixed-top is-light is-bold">
+    <nav class="navbar is-fixed-top is-dark is-bold">
         <div class="navbar-brand">
             <a class="navbar-item" href="">
                 <span class="logo">
-                    Frew<i class="fas fa-angle-double-up" ></i>rd
+                    Le Bl<i class="fas fa-paw"></i>g
                 </span>
             </a>
             <div class="navbar-burger burger" data-target="navbarLanguage">
@@ -46,11 +46,11 @@
         </div>
     </nav>
 
-    <section class="hero is-dark is-medium">
+    <section class="hero is-light is-medium">
         <div class="hero-body">
             <div class="container">
-                <span class="randomimage"><i class="fas fa-brain" ></i></span>
-                <span class="welcome">Welcome to Frew<i class="fas fa-angle-double-up" ></i>rd</span>
+                <span class="randomimage"><i class="fas fa-mug-hot" ></i></span>
+                <span class="welcome">Let's have a coffee sometime</span>
             </div>
         </div>
     </section>
@@ -116,14 +116,14 @@ export default {
   .logo
   {
   font-size: 30px;
-  color: black;
+  color: #FDFEFE  ;
   }
   .randomimage
   {
   display:table;
   margin:0 auto;
   font-size: 200px;
-  color: #D3D3D3;
+  color: #000000;
   }
   .welcome
   {
@@ -131,6 +131,6 @@ export default {
   margin:0 auto;
   font-size: 62.5px;
   font-weight: bold;
-  color: #D3D3D3;
+  color: #695e5e;
   }
 </style>
