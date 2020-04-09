@@ -50,7 +50,7 @@
         <div class="hero-body">
             <div class="container">
                 <span class="randomimage"><i class="fas fa-mug-hot" ></i></span>
-                <span class="welcome">Let's have a coffee sometime</span>
+                <span class="welcome">Let's have coffee sometime</span>
             </div>
         </div>
     </section>
