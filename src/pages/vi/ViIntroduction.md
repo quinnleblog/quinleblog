@@ -1,32 +1,17 @@
 <vue-mathjax></vue-mathjax>
-# Lời mở đầu
+# Introduction:
 
-Bên cạnh sự phát triển của Computer Vision, Natural Language Processing,
-các thuật toán Reinforcement Learning cũng đạt được những thành tựu đáng
-ngạc nhiên trong những năm gần đây và nhận được nhiều sự chú ý.
-Tuy nhiên, các bài hướng dẫn được tìm thấy trên mạng thường đẩy nhanh đến
-phần code mà không đi sâu vào toán.
-Blog này dựa trên bài giảng của giáo sư Sergey Levine thuộc đại học UC Berkeley
-và sách Introduction to Reinforcement Learning của giáo sư Sutton và Barto,
-các bạn có thể tìm thấy link cho bài giảng
-[tại đây](http://rail.eecs.berkeley.edu/deeprlcourse/)
-và sách [tại đây](http://incompleteideas.net/book/bookdraft2017nov5.pdf).
+Somebody told me that the best way to learn is to explain the concept to others. Therefore, I created this blog primarily to teach myself and hope that you find the blog useful. Covered topics are data science (both from theoretical view and practical use), my notes about Mathematics and sharing my experience
 
-Blog cũng sẽ giới thiệu các thư viện RL và cách dùng chúng trong
-thực tế.
+# About me:
+I'm currently a PhD student in Mathematics at University of Southern California. My interest includes data science, statistics and Financial Math.
 
-# Về Frew<i class="fas fa-angle-double-up" ></i>rd
-Trong RL, reward rất quan trọng, các hành động mà máy học được là để
-tối ưu tổng lượng reward về lâu dài và xây dựng hàm reward sao cho hợp lý
-là một trong các điều kiện cần để thuật toán RL có thể chạy được. Trong thực tế,
-một reward cũng rất quan trọng để thúc đẩy chúng ta hướng tới mục tiêu trong cuộc sống.
-
-Hàm reward - $f(reward)$ - Frew<i class="fas fa-angle-double-up" ></i>rd
-xuất phát từ đó.
+# Contact:
+@ icon-envelope  nguyet.t.t.le@gmail.com
+<span class="icon"><i class="fab fa-linkedin">
+> #### <i class="fab fa-linkedin"></i>  https://www.linkedin.com/in/nguyet-quinn-le-74ab54168/ 
 <br/>
 <br/>
 <br/>
-<br/>
-<p align="center" style="font-size:200%;">In this Freeworld, what is your Frew<i class="fas fa-angle-double-up" ></i>rd?</p>
 
 

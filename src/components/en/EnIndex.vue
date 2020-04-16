@@ -26,9 +26,6 @@
                         <a class="navbar-item">
                             <router-link to="/vi"><span>Tiếng Việt</span></router-link>
                         </a>
-                        <a class="navbar-item">
-                            <router-link to="/fr"><span>Français</span></router-link>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -36,8 +33,18 @@
                 <div class="navbar-item">
                     <div class="field is-grouped">
                         <p class="control">
-                            <a class="bd-tw-button button">
-                                <router-link to="/about"><span class="icon"><i class="fas fa-info-circle"></i></span></router-link>
+                            <a class="bd-tw-button button" href="https://github.com/quinle/">
+                                <span class="icon"><i class="fab fa-github"></i></span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="bd-tw-button button" href="https://www.linkedin.com/in/nguyet-quinn-le-74ab54168/">
+                                <span class="icon"><i class="fab fa-linkedin"></i></span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="bd-tw-button button" href="https://www.facebook.com/quin.le.95/">
+                                <span class="icon"><i class="fab fa-facebook"></i></span>
                             </a>
                         </p>
                     </div>
@@ -72,11 +79,11 @@
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <strong>Frew<i class="fas fa-angle-double-up" ></i>rd</strong> by <a href="https://www.facebook.com/toanngosy/" target="_blank">Gonaton</a>. The source code is licensed
+            <strong>Le Bl<i class="fas fa-paw"></i>g</strong> by <a href="https://www.facebook.com/quinn.le.95/" target="_blank">Quinn Le</a>. The source code is licensed
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
           </p>
           <p>
-            <a class="icon" href="https://github.com/toanngosy/">
+            <a class="icon" href="https://github.com/quinle">
               <i class="fab fa-github"></i>
             </a>
           </p>

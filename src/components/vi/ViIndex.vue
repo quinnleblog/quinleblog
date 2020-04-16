@@ -26,9 +26,6 @@
                         <a class="navbar-item">
                             <router-link to="/vi"><span>Tiếng Việt</span></router-link>
                         </a>
-                        <a class="navbar-item">
-                            <router-link to="/fr"><span>Français</span></router-link>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -55,11 +52,11 @@
             </div>
         </div>
     </nav>
-    <section class="hero is-dark is-medium">
+    <section class="hero is-light is-medium">
         <div class="hero-body">
             <div class="container">
-                <span class="randomimage"><i class="fas fa-brain" ></i></span>
-                <span class="welcome">Frew<i class="fas fa-angle-double-up" ></i>rd chào bạn</span>
+                <span class="randomimage"><i class="fas fa-mug-hot" ></i></span>
+                <span class="welcome">Let's have coffee sometime</span>
                 <!--<span class="randomimage">Frew<i class="fas fa-angle-double-up" ></i>rd</span>
                 <span class="welcome">What is your reward function?</span>-->
             </div>
@@ -82,11 +79,11 @@
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <strong>Frew<i class="fas fa-angle-double-up" ></i>rd</strong> by <a href="https://www.facebook.com/toanngosy/" target="_blank">Gonaton</a>. Mã nguồn bản quyền
+            <strong>Frew<i class="fas fa-angle-double-up" ></i>rd</strong> by <a href="https://www.facebook.com/quinn.le.95/" target="_blank">Quinn Le</a>. Mã nguồn bản quyền
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
           </p>
           <p>
-            <a class="icon" href="https://github.com/toanngosy/">
+            <a class="icon" href="https://github.com/quinle/">
               <i class="fab fa-github"></i>
             </a>
           </p>
@@ -124,14 +121,14 @@ export default {
   .logo
   {
   font-size: 30px;
-  color: black;
+  color: #FDFEFE;
   }
   .randomimage
   {
   display:table;
   margin:0 auto;
   font-size: 200px;
-  color: #D3D3D3;
+  color: #000000;
   }
 
   .welcome
@@ -140,6 +137,6 @@ export default {
   margin:0 auto;
   font-size: 62.5px;
   font-weight: bold;
-  color: #D3D3D3;
+  color: #695e5e;
   }
 </style>

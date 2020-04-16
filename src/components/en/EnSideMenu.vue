@@ -5,7 +5,7 @@
       <li><router-link to="/about" class="list-group-item" exact>About us</router-link></li>
     </ul>
     <div class="menu">
-      <p class="menu-label">Theorical RL</p>
+      <p class="menu-label">Theorical CS</p>
       <ul class="menu-list">
         <li><router-link to="/theorical/1" exact>DDPG</router-link></li>
         <li><router-link to="/theorical/2" exact>mathnotes</router-link></li>
@@ -14,7 +14,7 @@
         <li><router-link to="/components/icon" exact>Inference</router-link></li>
       </ul>
 
-      <p class="menu-label">Practical RL</p>
+      <p class="menu-label">Practical CS</p>
       <ul class="menu-list">
         <li><router-link to="/en/components/affix" exact>OpenAI Gym</router-link></li>
         <li><router-link to="/en/components/scrollto" exact>Q-learning</router-link></li>
@@ -23,7 +23,7 @@
         <li><router-link to="/en/components/breadcrumb" exact>SAC</router-link></li>
       </ul>
 
-      <p class="menu-label">Library Review</p>
+      <p class="menu-label">Math notes</p>
       <ul class="menu-list">
         <li><router-link to="/en/components/alert" exact>OpenAI baselines</router-link></li>
         <li><router-link to="/en/components/aside" exact>Stable baselines</router-link></li>
@@ -31,7 +31,7 @@
         <li><router-link to="/en/components/modal" exact>Unity ML-Agents</router-link></li>
       </ul>
 
-      <p class="menu-label">Application</p>
+      <p class="menu-label">Projects</p>
       <ul class="menu-list">
         <li><router-link to="/en/components/form" exact>Frew<i class="fas fa-angle-double-up" ></i>rd Env</router-link></li>
         <li><router-link to="/en/components/form2" exact>Frew<i class="fas fa-angle-double-up" ></i>rd Exp</router-link></li>
