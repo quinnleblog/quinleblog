@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav class="navbar is-fixed-top is-light is-bold">
+    <nav class="navbar is-fixed-top is-dark is-bold">
         <div class="navbar-brand">
             <a class="navbar-item" href="">
                 <span class="logo">
-                    Frew<i class="fas fa-angle-double-up" ></i>rd
+                    Le Bl<i class="fas fa-paw"></i>g
                 </span>
             </a>
             <div class="navbar-burger burger" data-target="navbarLanguage">
@@ -33,17 +33,17 @@
                 <div class="navbar-item">
                     <div class="field is-grouped">
                         <p class="control">
-                            <a class="bd-tw-button button" href="https://github.com/toanngosy/">
+                            <a class="bd-tw-button button" href="https://github.com/quinle/">
                                 <span class="icon"><i class="fab fa-github"></i></span>
                             </a>
                         </p>
                         <p class="control">
-                            <a class="bd-tw-button button" href="https://www.linkedin.com/in/sy-toan-ngo-491109bb/">
+                            <a class="bd-tw-button button" href="https://www.linkedin.com/in/nguyet-quinn-le-74ab54168/">
                                 <span class="icon"><i class="fab fa-linkedin"></i></span>
                             </a>
                         </p>
                         <p class="control">
-                            <a class="bd-tw-button button" href="https://www.facebook.com/toanngosy/">
+                            <a class="bd-tw-button button" href="https://www.facebook.com/quinn.le.95/">
                                 <span class="icon"><i class="fab fa-facebook"></i></span>
                             </a>
                         </p>
@@ -79,7 +79,7 @@
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <strong>Frew<i class="fas fa-angle-double-up" ></i>rd</strong> by <a href="https://www.facebook.com/quinn.le.95/" target="_blank">Quinn Le</a>. Mã nguồn bản quyền
+            <strong>Le Bl<i class="fas fa-paw"></i>g</strong> by <a href="https://www.facebook.com/quinn.le.95/" target="_blank">Quinn Le</a>. Mã nguồn bản quyền
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
           </p>
           <p>

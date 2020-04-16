@@ -43,7 +43,7 @@
                             </a>
                         </p>
                         <p class="control">
-                            <a class="bd-tw-button button" href="https://www.facebook.com/quin.le.95/">
+                            <a class="bd-tw-button button" href="https://www.facebook.com/quinn.le.95/">
                                 <span class="icon"><i class="fab fa-facebook"></i></span>
                             </a>
                         </p>

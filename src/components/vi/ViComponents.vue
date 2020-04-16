@@ -4,7 +4,7 @@
         <div class="navbar-brand">
             <a class="navbar-item" href="">
                 <span class="logo">
-                    Frew<i class="fas fa-angle-double-up" ></i>rd
+                    Le Bl<i class="fas fa-paw"></i>g
                 </span>
             </a>
             <div class="navbar-burger burger" data-target="navbarLanguage">
