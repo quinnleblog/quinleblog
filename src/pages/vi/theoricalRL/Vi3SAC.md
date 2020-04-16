@@ -29,8 +29,13 @@ Lưu ý: các ma trận $U$ và $V$ là không duy nhất. Ví dụ, khi chúng 
 Trong thực tế, ma trận A có thể có size rất lớn, nhưng rất nhiều phần tử của A đều bằng 0, nói cách khác, rank(A) << min{m,n}. Vì vậy, khi "chéo hóa" A, ta giảm được rất nhiều bộ nhớ sử dụng để lưu trữ A. Xem hình vẽ:
 
 Trên thực tế, chúng ta có thể "ăn gian một chút" bằng việc chỉ giữ lại những giá trị lớn trên đường chéo của $\Sigma$, những giá trị nhỏ ta có thể xem như bằng 0 và loại bỏ. Xem xét ví dụ sau:
-
-$\begin{matrix} 1 & 1 & 1 & 0 & 0  \\  3 & 3 & 3 & 0 & 0 \\ 4 & 4 & 4 & 0 & 0 \\ 5 & 5 & 5 & 0 & 0 \\ 0 & 2 & 0 & 4 & 4 \\ 0 & 0 & 0 & 5 & 5 \\ 0 & 1 & 0 & 2 & 2 \end{matrix}$ = $\begin{matrix} 0.13 & 0.02 & -0.01  \\  3 & 0 & 0 \\ 4 & 0 & 0 \\ 5 & 0 & 0 \\ 0 & 4 & 4 \\ 0 & 5 & 5 \\ 0 & 2 & 2 \end{matrix}$
+$$
+\left(\begin{array}{cc} 
+0.8944272 & 0.4472136\\
+-0.4472136 & -0.8944272
+\end{array}\right)
+$$
+$\begin{matrix} 1 & 1 & 1 & 0 & 0  \\  3 & 3 & 3 & 0 & 0 \\ 4 & 4 & 4 & 0 & 0 \\ 5 & 5 & 5 & 0 & 0 \\ 0 & 2 & 0 & 4 & 4 \\ 0 & 0 & 0 & 5 & 5 \\ 0 & 1 & 0 & 2 & 2 \end{matrix}$ = $\begin{matrix} 0.13 & 0.02 & -0.01  \\ 0.41 & 0.07 & -0.03 \\ 0.55 & 0.09 & -0.04 \\ 0.68 & 0.11 & -0.05 \\ 0.15 & -0.59 & 0.65 \\ 0.07 & -0.73 & -0.67 \\ 0.07 & -0.29 & 0.32 \end{matrix}$ x $\begin{matrix} 12.4 & 0 & 0  \\ 0 & 9.5 & 0 \\ 0 & 0 & 1.3 \end{matrix}$ x $\begin{matrix} 0.13 & 0.02 & -0.01  \\ 0.41 & 0.07 & -0.03 \\ 0.55 & 0.09 & -0.04 \\ 0.68 & 0.11 & -0.05 \\ 0.15 & -0.59 & 0.65 \\ 0.07 & -0.73 & -0.67 \\ 0.07 & -0.29 & 0.32 \end{matrix}$
 
 Ta thấy rằng 2 giá trị đầu tiên khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận A* sau khi thay 1.3 thành 0:
 *Hiển thị A* gần bằng A
