@@ -21,6 +21,10 @@ export default [
       },{
         path: '2',
         component: require('../pages/vi/theoricalRL/Vi2TRPO.md').default,
+      },
+      {
+        path: '3',
+        component: require('../pages/vi/theoricalRL/Vi3SAC.md').default,
       }],
     }
     ],
