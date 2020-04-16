@@ -30,14 +30,8 @@ Trong thực tế, ma trận A có thể có size rất lớn, nhưng rất nhi�
 
 Trên thực tế, chúng ta có thể "ăn gian một chút" bằng việc chỉ giữ lại những giá trị lớn trên đường chéo của $\Sigma$, những giá trị nhỏ ta có thể xem như bằng 0 và loại bỏ. Xem xét ví dụ sau:
 
-\[
-  \left[ {\begin{array}{ccccc}
-   1 & 2 & 3 & 4 & 5\\
-   3 & 4 & 5 & 6 & 7\\
-  \end{array} } \right]
-  = 
+$\begin{matrix} 1 & 1 & 1 & 0 & 0  \\  3 & 3 & 3 & 0 & 0 \\ 4 & 4 & 4 & 0 & 0 \\ 5 & 5 & 5 & 0 & 0 \\ 0 & 2 & 0 & 4 & 4 \\ 0 & 0 & 0 & 5 & 5 \\ 0 & 1 & 0 & 2 & 2 \end{matrix}$ = $\begin{matrix} 0.13 & 0.02 & -0.01  \\  3 & 0 & 0 \\ 4 & 0 & 0 \\ 5 & 0 & 0 \\ 0 & 4 & 4 \\ 0 & 5 & 5 \\ 0 & 2 & 2 \end{matrix}$
 
-\]
 Ta thấy rằng 2 giá trị đầu tiên khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận A* sau khi thay 1.3 thành 0:
 *Hiển thị A* gần bằng A
 
