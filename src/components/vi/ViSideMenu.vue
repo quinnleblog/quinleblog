@@ -9,8 +9,8 @@
       <ul class="menu-list">
         <li><router-link to="/vi/theorical/1" exact>DDPG</router-link></li>
         <li><router-link to="/vi/theorical/2" exact>TRPO/PPO</router-link></li>
-        <li><router-link to="/vi/theorical/3" exact>SAC</router-link></li>
-        <li><router-link to="/vi/theorical/3" exact>Inference</router-link></li>
+        <li><router-link to="/vi/theorical/3" exact>SVD</router-link></li>
+        <li><router-link to="/vi/theorical/4" exact>Inference</router-link></li>
       </ul>
 
       <p class="menu-label">DS thực hành</p>

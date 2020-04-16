@@ -1,1 +1,1 @@
-# Hands-on Reinforcement Learning: Policy Gradient
+# Singular Value Decomposition P2 (real applications and coding guide)
