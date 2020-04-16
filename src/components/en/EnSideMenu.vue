@@ -5,7 +5,7 @@
       <li><router-link to="/about" class="list-group-item" exact>About us</router-link></li>
     </ul>
     <div class="menu">
-      <p class="menu-label">Theorical CS</p>
+      <p class="menu-label">Theorical DS</p>
       <ul class="menu-list">
         <li><router-link to="/theorical/1" exact>DDPG</router-link></li>
         <li><router-link to="/theorical/2" exact>mathnotes</router-link></li>
@@ -14,7 +14,7 @@
         <li><router-link to="/components/icon" exact>Inference</router-link></li>
       </ul>
 
-      <p class="menu-label">Practical CS</p>
+      <p class="menu-label">Practical DS</p>
       <ul class="menu-list">
         <li><router-link to="/en/components/affix" exact>OpenAI Gym</router-link></li>
         <li><router-link to="/en/components/scrollto" exact>Q-learning</router-link></li>

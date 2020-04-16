@@ -5,7 +5,7 @@
       <li><router-link to="/vi/about" class="list-group-item" exact>Giới thiệu</router-link></li>
     </ul>
     <div class="menu">
-      <p class="menu-label">CS lý thuyết</p>
+      <p class="menu-label">DS Lý thuyết</p>
       <ul class="menu-list">
         <li><router-link to="/vi/theorical/1" exact>DDPG</router-link></li>
         <li><router-link to="/vi/theorical/2" exact>TRPO/PPO</router-link></li>
@@ -13,7 +13,7 @@
         <li><router-link to="/vi/theorical/3" exact>Inference</router-link></li>
       </ul>
 
-      <p class="menu-label">RL thực hành</p>
+      <p class="menu-label">DS thực hành</p>
       <ul class="menu-list">
         <li><router-link to="/en/components/affix" exact>OpenAI Gym</router-link></li>
         <li><router-link to="/en/components/scrollto" exact>Q-learning</router-link></li>
