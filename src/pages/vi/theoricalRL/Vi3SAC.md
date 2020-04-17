@@ -117,13 +117,13 @@ Ta dễ dàng thấy rank của ma trận A bằng 3. Điều này nghĩa là s�
 Tích của ma trận $U$ và $\Sigma$ là:
 
 $$\begin{bmatrix}  
-1.612 & 0.19 & -0.013 \\\\
-5.084 & 0.665 & -0.039 \\\\
-6.82 & 0.855 & -0.052 \\\\
-8.432 & 1.045 & -0.065 \\\\
-1.86 & -5.605 & 0.845 \\\\
-0.868 & -6.935 & -0.871 \\\\
-0.868 & -2.755 & 0.416 
+user_1 & 1.612 & 0.19 & -0.013 \\\\
+user_2 & 5.084 & 0.665 & -0.039 \\\\
+user_3 & 6.82 & 0.855 & -0.052 \\\\
+user_4 & 8.432 & 1.045 & -0.065 \\\\
+user_5 & 1.86 & -5.605 & 0.845 \\\\
+user_6 & 0.868 & -6.935 & -0.871 \\\\
+user_7 & 0.868 & -2.755 & 0.416 
 \end{bmatrix}
 $$
 
@@ -131,16 +131,17 @@ Ta có $U$.$\Sigma[i]$ là tọa độ của user_i trong hệ tọa độ mới
 
 Các user 1,2,3,4 có tọa độ đầu lớn hơn hẳn tọa độ 2, và các user 5,6,7 có tọa độ thứ 2 lớn hơn tọa độ 1 <span class="tex2jax_ignore">(</span> lớn hơn theo giá trị tuyệt đối, tọa độ 3 ta bỏ qua vì quá nhỏ so với tọa độ 1 và 2<span class="tex2jax_ignore">)</span> Điều này chứng tỏ máy tính chia user 1,2,3,4 vào nhóm 1 và user 5,6,7 vào nhóm 2 mặc dù máy tính KHÔNG THỰC SỰ BIẾT nhóm 1 là Scifi và nhóm 2 là Romance.
 
-Không những chia user thành từng nhóm, máy tính còn chia 5 bộ phim ra thành 2 nhóm riêng biệt. Lập luận tương tự như trên, ta có $\Sigma$.$V^T$ là tọa độ của từng bộ phim trong hệ tọa độ mới <span class="tex2jax_ignore">(</span>các vector cơ sở trong trường hợp này là các cột của $U$<span class="tex2jax_ignore">)</span>. Ma trận $\Sigma$.$V^T$:
+Không những chia user thành từng nhóm, máy tính còn chia 5 bộ phim ra thành 2 nhóm riêng biệt. Lập luận tương tự như trên, ta có $\Sigma$.$V^T$ là tọa độ của từng bộ phim trong hệ tọa độ mới <span class="tex2jax_ignore">(</span>các vector cơ sở trong trường hợp này là các cột của $U$<span class="tex2jax_ignore">)</span>. Ma trận $\Sigma$$V^T$:
 
-$$\begin{bmatrix}  
+$$\begin{bmatrix}
+matrix & alien & gravity & lalaland & mebeforeyou \\\\
 6.944 & 7.316 & 6.944 & 1.116 & 1.116\\\\
 1.14 & -0.19 & 1.14 & -6.555 & -6.555\\\\
 0.52 & -1.04 & 0.52 & 0.117 & 0.117
 \end{bmatrix} $$
 
 
-Ta thấy đối với các phim Matrix, Alien và Serenity, tọa độ đầu tiên lớn hơn hẳn 2 tọa độ còn lại, và đối với Casablanca và Amelie, tọa độ thứ 2 lại lớn nhất. Điều này chứng tỏ máy tính phân Matrix, Alien, Serenity vào 1 nhóm và Casablanca, Amelie vào 1 nhóm. Nhắc lại là mặc dù chúng ta biết 2 nhóm này lần lượt là Scifi và Romance, máy tính không thực sự biết chính xác 2 nhóm này là gì, máy tính chỉ đọc dữ liệu từ ma trận $A$ và chia các bộ phim ra các nhóm tương ứng.
+Ta thấy đối với các phim Matrix, Alien và Gravity, tọa độ đầu tiên lớn hơn hẳn 2 tọa độ còn lại, và đối với Lalaland và Me before you, tọa độ thứ 2 lại lớn nhất. Điều này chứng tỏ máy tính phân Matrix, Alien, Gravity vào 1 nhóm và La la land, Me before you vào 1 nhóm. Nhắc lại là mặc dù chúng ta biết 2 nhóm này lần lượt là Scifi và Romance, máy tính không thực sự biết chính xác 2 nhóm này là gì, máy tính chỉ đọc dữ liệu từ ma trận $A$ và chia các bộ phim ra các nhóm tương ứng.
 
 
 
