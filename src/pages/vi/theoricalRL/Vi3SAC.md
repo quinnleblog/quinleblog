@@ -1,4 +1,5 @@
 <vue-mathjax></vue-mathjax>
+
 # Singular Value Decomposition P1 <span class="tex2jax_ignore">(</span>lý thuyết và ví dụ<span class="tex2jax_ignore">)</span>
 
 *Reference: https://www.youtube.com/watch?v=P5mlg91as1c&t=468s*
@@ -30,9 +31,8 @@ Trong thực tế, ma trận $A$ có thể có size rất lớn, nhưng rất nh
 
 Trên thực tế, chúng ta có thể "ăn gian" một chút bằng việc chỉ giữ lại những giá trị lớn trên đường chéo của $\Sigma$, những giá trị nhỏ ta có thể xem như bằng 0 và loại bỏ. Xem xét ví dụ sau:
 
-$$
-\left[\begin{array}
-{ccccc}  
+\begin{equation*}
+$$\begin{bmatrix}  
 1 & 1 & 1 & 0 & 0 \\
 3 & 3 & 3 & 0 & 0 \\
 4 & 4 & 4 & 0 & 0 \\
@@ -40,9 +40,8 @@ $$
 0 & 2 & 0 & 4 & 4 \\
 0 & 0 & 0 & 5 & 5 \\
 0 & 1 & 0 & 2 & 2 
-\end{array}\right] =
-\left[\begin{array}
-{ccc}  
+\end{bmatrix}, =
+\begin{bmatrix}  
 0.13 & 0.02 & -0.01 \\
 0.41 & 0.07 & -0.03 \\
 0.55 & 0.09 & -0.04 \\
@@ -50,26 +49,22 @@ $$
 0.15 & -0.59 & 0.65 \\
 0.07 & -0.73 & -0.67 \\ 
 0.07 & -0.29 & 0.32 
-\end{array}\right] 
-\left[\begin{array}
-{ccc}  
+\end{bmatrix} 
+\begin{bmatrix}
 12.4 & 0 & 0 \\
 0 & 9.5 & 0 \\
 0 & 0 & 1.3 
-\end{array}\right)]
-\left[\begin{array}
-{ccccc}  
+\end{bmatrix}
+\begin{bmatrix}  
 0.56 & 0.59 & 0.56 & 0.09 & 0.09\\
 0.12 & -0.02 & 0.12 & -0.69 & -0.69\\
 0.40 & -0.80 & 0.04 & 0.09 & 0.09
-\end{array}\right]
-$$ 
+\end{bmatrix}$$
+\end{equation*}
 
 Ta thấy rằng 2 giá trị đầu tiên của $\Sigma$ khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận $A'$ sau khi thay 1.3 thành 0:
 
-$$ A' = 
-\left[\begin{array}
-{ccccc}  
+$$ A' = \begin{bmatrix}
 0.926 & 0.947 & 0.926 & 0.014 & 0.014 \\  
 2.927 & 2.986 & 2.927 & -0.001 & -0.001 \\ 
 3.922 & 4.007 & 3.922 & 0.024 & 0.024 \\ 
@@ -77,8 +72,7 @@ $$ A' =
 0.369 & 1.21 & 0.369 & 4.035 & 4.035 \\ 
 -0.346 & 0.651 & -0.346 & 4.863 & 4.863 \\ 
 0.155 & 0.567 & 0.155 & 1.98 & 1.98 
-\end{array}\right]
-\approx A
+\end{bmatrix} \approx A
 $$
 
 Vậy là hầu hết các thông tin của $A$ đều được giữ lại, nhưng ta chỉ cần phải lưu 7x2 + 2  <span class="tex2jax_ignore">(</span>chỉ cần lưu các giá trị trên đường chéo<span class="tex2jax_ignore">)</span> + 2x5 = 26 giá trị thay vì phải lưu 35 giá trị của $A$.
