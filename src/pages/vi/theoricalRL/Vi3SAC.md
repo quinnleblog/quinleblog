@@ -31,15 +31,8 @@ Trong thực tế, ma trận $A$ có thể có size rất lớn, nhưng rất nh
 
 Trên thực tế, chúng ta có thể "ăn gian" một chút bằng việc chỉ giữ lại những giá trị lớn trên đường chéo của $\Sigma$, những giá trị nhỏ ta có thể xem như bằng 0 và loại bỏ. Xem xét ví dụ sau:
 
-<img src="https://tex.s2cms.ru/svg/T%5E%7B%5Cmu%5Cnu%7D%3D%5Cbegin%7Bpmatrix%7D%0A%5Cvarepsilon%260%260%260%5C%5C%0A0%26%5Cvarepsilon%2F3%260%260%5C%5C%0A0%260%26%5Cvarepsilon%2F3%260%5C%5C%0A0%260%260%26%5Cvarepsilon%2F3%0A%5Cend%7Bpmatrix%7D%2C" alt="T^{\mu\nu}=\begin{pmatrix}
-\varepsilon&amp;0&amp;0&amp;0\\
-0&amp;\varepsilon/3&amp;0&amp;0\\
-0&amp;0&amp;\varepsilon/3&amp;0\\
-0&amp;0&amp;0&amp;\varepsilon/3
-\end{pmatrix}," />
-
-\begin{equation*}
-$$\begin{bmatrix}  
+$$
+\begin{bmatrix}  
 1 & 1 & 1 & 0 & 0 \\
 3 & 3 & 3 & 0 & 0 \\
 4 & 4 & 4 & 0 & 0 \\
@@ -47,7 +40,10 @@ $$\begin{bmatrix}
 0 & 2 & 0 & 4 & 4 \\
 0 & 0 & 0 & 5 & 5 \\
 0 & 1 & 0 & 2 & 2 
-\end{bmatrix} =
+\end{bmatrix}
+$$
+ =
+$$
 \begin{bmatrix}  
 0.13 & 0.02 & -0.01 \\
 0.41 & 0.07 & -0.03 \\
@@ -67,7 +63,6 @@ $$\begin{bmatrix}
 0.12 & -0.02 & 0.12 & -0.69 & -0.69\\
 0.40 & -0.80 & 0.04 & 0.09 & 0.09
 \end{bmatrix}$$
-\end{equation*}
 
 Ta thấy rằng 2 giá trị đầu tiên của $\Sigma$ khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận $A'$ sau khi thay 1.3 thành 0:
 
