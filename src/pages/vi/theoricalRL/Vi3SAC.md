@@ -32,6 +32,55 @@ Trên thực tế, chúng ta có thể "ăn gian" một chút bằng việc ch�
 
 $$
 \left(\begin{array}{ccccc}  
+1 & 1 & 1 & 0 & 0 \\
+
+3 & 3 & 3 & 0 & 0 \\
+
+4 & 4 & 4 & 0 & 0 \\
+
+5 & 5 & 5 & 0 & 0 \\
+
+0 & 2 & 0 & 4 & 4 \\
+
+0 & 0 & 0 & 5 & 5 \\
+
+0 & 1 & 0 & 2 & 2 
+\end{array}\right) =
+\left(\begin{array}{ccc}  
+0.13 & 0.02 & -0.01 \\
+
+0.41 & 0.07 & -0.03 \\
+
+0.55 & 0.09 & -0.04 \\
+
+0.68 & 0.11 & -0.05 \\ 
+
+0.15 & -0.59 & 0.65 \\
+
+0.07 & -0.73 & -0.67 \\ 
+
+0.07 & -0.29 & 0.32 
+\end{array}\right) 
+\left(\begin{array}{ccc}  
+12.4 & 0 & 0 \\
+
+0 & 9.5 & 0 \\
+
+0 & 0 & 1.3 
+\end{array}\right) 
+\left(\begin{array}{ccccc}  
+0.56 & 0.59 & 0.56 & 0.09 & 0.09\\
+
+0.12 & -0.02 & 0.12 & -0.69 & -0.69\\
+
+0.40 & -0.80 & 0.04 & 0.09 & 0.09
+\end{array}\right)
+$$ 
+
+Ta thấy rằng 2 giá trị đầu tiên của $\Sigma$ khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận $A'$ sau khi thay 1.3 thành 0:
+
+$$ A' = 
+\left(\begin{array}{ccccc}  
 1 & 1 & 1 & 0 & 0 \\  
 3 & 3 & 3 & 0 & 0 \\ 
 4 & 4 & 4 & 0 & 0 \\ 
@@ -39,31 +88,9 @@ $$
 0 & 2 & 0 & 4 & 4 \\ 
 0 & 0 & 0 & 5 & 5 \\ 
 0 & 1 & 0 & 2 & 2 
-\end{array}\right) =
-\left(\begin{array}{ccc}  
-0.13 & 0.02 & -0.01 \\ 
-0.41 & 0.07 & -0.03 \\ 
-0.55 & 0.09 & -0.04 \\ 
-0.68 & 0.11 & -0.05 \\ 
-0.15 & -0.59 & 0.65 \\ 
-0.07 & -0.73 & -0.67 \\ 
-0.07 & -0.29 & 0.32 
-\end{array}\right) 
-\left(\begin{array}{ccc}  
-12.4 & 0 & 0 \\ 
-0 & 9.5 & 0 \\ 
-0 & 0 & 1.3 
-\end{array}\right) 
-\left(\begin{array}{ccccc}  
-0.56 & 0.59 & 0.56 & 0.09 & 0.09\\ 
-0.12 & -0.02 & 0.12 & -0.69 & -0.69\\
-0.40 & -0.80 & 0.04 & 0.09 & 0.09
 \end{array}\right)
-$$ 
-
-Ta thấy rằng 2 giá trị đầu tiên của $\Sigma$ khá lớn so với giá trị thứ 3, vì vậy ta coi như giá trị thứ 3 bằng 0. Ta có ma trận $A'$ sau khi thay 1.3 thành 0:
-$$ A' = 
-\begin{bmatrix} 
+\approx A
+$$
 
 Vậy là hầu hết các thông tin của $A$ đều được giữ lại, nhưng ta chỉ cần phải lưu 7x2 + 2  <span class="tex2jax_ignore">(</span>chỉ cần lưu các giá trị trên đường chéo<span class="tex2jax_ignore">)</span> + 2x5 = 26 giá trị thay vì phải lưu 35 giá trị của $A$.
 
